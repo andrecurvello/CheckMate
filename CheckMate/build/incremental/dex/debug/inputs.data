@@ -1,0 +1,18 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1376551860000 415 fad3e7420f98d6dbe634f14d9c8b8c102dcadef1 /Users/Aaron/Library/Developer/Android Projects/CheckMateProject/CheckMate/build/classes/debug/com/amamparo/checkmate/R$layout.class
+1376551860000 477 b9d652ad85c3b640d562b36cdcec6a2860c1100c /Users/Aaron/Library/Developer/Android Projects/CheckMateProject/CheckMate/build/classes/debug/com/amamparo/checkmate/R$style.class
+1376542309000 353 f37b28927f07d2d09914521ddd727762d4ac8094 /Users/Aaron/Library/Developer/Android Projects/CheckMateProject/CheckMate/build/classes/debug/com/amamparo/checkmate/BuildConfig.class
+1376551860000 516 1edc93bf3cb7f607e31a37214937fa016a099163 /Users/Aaron/Library/Developer/Android Projects/CheckMateProject/CheckMate/build/classes/debug/com/amamparo/checkmate/R$drawable.class
+1376581541000 1530 c86140751f884ca3306ddeb0b6c3360ac1f6063e /Users/Aaron/Library/Developer/Android Projects/CheckMateProject/CheckMate/build/classes/debug/com/amamparo/checkmate/MainActivity$2.class
+1376542309000 352 fbfde2d4089313db48a90a4efe2d4f6184eece54 /Users/Aaron/Library/Developer/Android Projects/CheckMateProject/CheckMate/build/classes/debug/com/amamparo/checkmate/R$attr.class
+1376551860000 400 237cf2ed92aec444d600d859806d61444c4870a1 /Users/Aaron/Library/Developer/Android Projects/CheckMateProject/CheckMate/build/classes/debug/com/amamparo/checkmate/R$menu.class
+1369432937000 490914 3fe75433da602500cc71fcc1c46e5550291dd45d /Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar
+1376582406000 3008 51119fc00ebdde34da178197ead8b67228fa47be /Users/Aaron/Library/Developer/Android Projects/CheckMateProject/CheckMate/build/classes/debug/com/amamparo/checkmate/MainActivity$3.class
+1376551860000 681 aaf2cf9f6c55b88ff23565507dded0df5cb00af5 /Users/Aaron/Library/Developer/Android Projects/CheckMateProject/CheckMate/build/classes/debug/com/amamparo/checkmate/R$id.class
+1376551860000 484 e192c05f99b23cadea440e6facf64fcaad642875 /Users/Aaron/Library/Developer/Android Projects/CheckMateProject/CheckMate/build/classes/debug/com/amamparo/checkmate/R$string.class
+1376542309000 473 e111207563a04b5ae642ab5c5f8e51324dac031c /Users/Aaron/Library/Developer/Android Projects/CheckMateProject/CheckMate/build/classes/debug/com/amamparo/checkmate/R$dimen.class
+1376551860000 717 7d8b57706202824f74cacdfc4b70433bff960871 /Users/Aaron/Library/Developer/Android Projects/CheckMateProject/CheckMate/build/classes/debug/com/amamparo/checkmate/R.class
+1376581541000 1868 7e1c6d2c13fdcf72fd8a184e4e42edab4f10c81f /Users/Aaron/Library/Developer/Android Projects/CheckMateProject/CheckMate/build/classes/debug/com/amamparo/checkmate/MainActivity$1.class
+1376582406000 4093 590d894af7438c7b8a7d50eaa879ff56aa7f41f5 /Users/Aaron/Library/Developer/Android Projects/CheckMateProject/CheckMate/build/classes/debug/com/amamparo/checkmate/MainActivity.class

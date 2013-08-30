@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context=".MainActivity"
+    android:background="#aaaaaa">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true">
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="CHECKMATE"
+                    android:gravity="center"
+                    android:textSize="50sp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="sans-serif"
+                    android:background="@drawable/gradient"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/rounded_box"
+                android:layout_margin="10dp">
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp">
+                <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Bill Amount:  $"
+                        android:textSize="20sp"
+                        android:layout_marginRight="0dp"
+                        android:paddingRight="0dp"/>
+                <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:textSize="20sp"
+                        android:id="@+id/etBillAmount"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="0dp"
+                        />
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp">
+                <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tip Rate: "
+                        android:layout_gravity="center"
+                        android:textSize="20sp"/>
+                <SeekBar
+                        android:layout_weight="1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sbTipPercent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="0dp"
+                        />
+                <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="20%"
+                        android:id="@+id/tvTipRateDisplay"
+                        android:layout_gravity="center"
+                        android:textSize="14sp"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp">
+                <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Split?: "
+                        android:layout_gravity="center"
+                        android:textSize="20sp"/>
+
+                <Spinner
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/split"
+                        android:textSize="20sp"/>
+            </LinearLayout>
+
+            <Button
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Calculate"
+                    android:id="@+id/bCalculate"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button"
+                    style="@style/ButtonText"
+                    />
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp">
+                <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tip Amount: "
+                        android:layout_gravity="center"
+                        android:textSize="20sp"/>
+                <TextView
+                        android:layout_weight="1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvTipAmount"
+                        android:layout_gravity="center"
+                        android:textSize="20sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp">
+                <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Total: "
+                        android:layout_gravity="center"
+                        android:textSize="20sp"/>
+                <TextView
+                        android:layout_weight="1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvTotal"
+                        android:layout_gravity="center"
+                        android:textSize="20sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp">
+                <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Per Person: "
+                        android:layout_gravity="center"
+                        android:textSize="20sp"/>
+                <TextView
+                        android:layout_weight="1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvPerPerson"
+                        android:layout_gravity="center"
+                        android:textSize="20sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/Users/Aaron/Library/Developer/Android%20Projects/CheckMateProject/CheckMate/src/main/res/layout/activity_main.xml -->
